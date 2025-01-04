@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" >
+    <meta name=" author " content=" Yen-Yi Hsu" >
+    <meta name=" description " content=" Assignment1 " >
+    <meta
+      name=" keywords "
+      content=" Assignment1,cst8285 ,html code,css, contact, Algonquin college, Yen-Yi Hsu, Personal website">
+    <title>Contact form</title>
+    <link rel="stylesheet" type="text/css" href="Assignment.css" >
+  </head>
+
+  <body>
+    <header>
+      <h1>Yen-Yi Hsu</h1>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li> <!-- Link to Home page -->
+          <li><a href="resume.html">Resume</a></li> <!-- Link to Resume page -->
+          <li><a href="projects.html">Project</a></li> <!-- Link to Project page -->
+          <li><a href="contact.html">Contact Me</a></li> <!-- Link to Contact page -->
+        </ul>
+      </nav>
+    </header>
+
+    <div class="form">
+      <h2>Contact Form</h2> <!-- Contact Form Heading -->
+      <p>Please fill out this form with the required information</p>
+    </div>
+
+    <form action="AssignmentForm.php" method="post" enctype="text/plain">
+      <fieldset>
+        <label for="firstName">Enter Your First Name:</label>
+        <input type="text" name="firstName" id="firstName" required >
+        <label for="last-name">Enter Your Last Name:</label>
+        <input type="text" id="last-name" name="last-name" required >
+
+        <label for="email">Email address :</label>
+        <input type="email" id="email" name="email"  placeholder="format for email is xxx@yyy.zzz">
+
+        <label for="sub">Subject:</label>
+        <input type="text" id="sub" name="subject"  minlength="5" maxlength="50">
+
+        <label for="msg">Write your message here:</label>
+        <textarea name="message" id="msg" rows="5" minlength="10" maxlength="300"
+        ></textarea>
+        <hr>
+        <input type="submit" >
+        <input type="reset" value="Clear information" >
+      </fieldset>
+    </form>
+
+    <footer>
+      <p>Yen-Yi Hsu, 2024 Copyright</p>
+    </footer>
+  </body>
+</html>

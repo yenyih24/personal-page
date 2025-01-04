@@ -1,0 +1,174 @@
+body {
+  font-family: Helvetica;
+  background-image: linear-gradient(to top, #f3e7e9 0%, #e3eeff 99%, #e3eeff 100%);  background-size: cover; /* Ensure the background covers the entire viewport */
+  background-attachment: fixed; /* Keep the background fixed while scrolling */
+}
+
+/* Header */
+header {
+  padding: 10px 0;
+  color: rgb(105, 95, 95); /*make text color*/
+  text-align: center; /* Center text */
+}
+
+/* Make sure the website’s title (<h1>) scales appropriately without causing layout issues on smaller screens by using descendant selector. */
+header h1 {
+  margin: 20px 0; /* Top and bottom margin 20px, left and right margin 0 */
+  font-size: 3em; /* Font size set to three times the parent element's font size */
+}
+
+nav {
+  display: flex; /* Use flexbox layout for navigation */
+  justify-content: center; /* Center navigation items */
+}
+
+p{
+  line-height: 2;
+}
+
+/* Unordered list inside the nav */
+nav ul {
+  list-style-type: none; /* Remove default bullet points */
+  display: flex; /* Align navigation items horizontally */
+}
+
+nav ul li {
+  margin: 0 15px; /* Spacing between list items */
+}
+
+/* Navigation links */
+nav ul li a {
+  color: rgb(121, 81, 81); /* Set link color */
+  text-decoration: none; /* Remove underline from links */
+  padding: 10px 15px; /* Padding for clickable area */
+}
+
+a:hover {
+  background-color: rgb(133, 130, 133);
+  border-radius: 30px; /* Round the corners of the element */
+}
+
+.container {
+  font-family: helvetica, arial, sans-serif;
+  display: grid;
+  grid-template-columns: 1fr 3fr; /* Create responsive columns */
+  padding: 20px 0; /* Padding around the main content */
+}
+
+img {
+  width: 200px; /* Set a fixed width for the image */
+  height: 300px; /* Set a fixed height for the image */
+  border-radius: 30px; /* Round the corners with a radius of 30px */
+  object-fit: cover; /* Ensure the image covers the entire area without distortion */
+  padding: 10px 0; /* Add 10px padding to the top and bottom */
+}
+
+.image {
+  display: flex; /* Use flexbox layout for the personal picture container */
+  justify-content: center; /* Center the personal picture */
+}
+
+main {
+  padding-left: 30px; /* Add 30px of padding to the left of the main content */
+}
+
+/*For resume page layout*/
+.resume_page {
+  margin: 20px 30px; /* Set 20px margin for top and bottom, 30px for left and right */
+  padding: 30px 30px; /* Set 30px padding on all sides */
+}
+
+.divider {
+  border-bottom: 2px solid rgb(105, 95, 95); /* Add a 2px solid bottom border for a divider line */
+  margin: 3px 0;
+}
+
+.clear {
+  list-style-type: none; /* Remove default bullet points */
+}
+
+aside {
+  display: flex;
+  align-content: center; /* Center items along the cross axis */
+  flex-direction: column; /* Arrange items in a column */
+  text-align: center; /* Center text within the aside */
+}
+
+aside ul {
+  padding: 0; /* Remove default padding */
+}
+
+aside ul li {
+  list-style-type: none; /* Remove bullet points */
+  margin: 20px 0; /* Spacing between list items */
+}
+
+aside ul li a {
+  color: rgb(121, 81, 81);
+  text-decoration: none; /* Remove underline from links */
+  padding: 10px 15px; /* Padding for area */
+}
+
+form {
+  width: 60vw; /* Set the width to 60% of the viewport width */
+  max-width: 500px; /* Set the maximum width to 500px */
+  min-width: 300px; /* Set the minimum width to 300px */
+  margin: 0 auto; /* Center the form */
+}
+
+/*Make text in contact me center */
+.form {
+  text-align: center;
+}
+
+fieldset {
+  border: none; /* Remove the default border from the fieldset */
+  padding: 20px 0; /* Add 20px padding to the top and bottom of the fieldset */
+}
+
+input,
+textarea,
+select {
+  margin: 5px 0 5px 0;
+  width: 100%; /* Set the width to 100% of the parent container */
+}
+
+label {
+  display: block; /* Display label as a block element */
+  margin: 5px 0;
+}
+
+.link a {
+  color: rgb(121, 81, 81);
+  text-decoration: none;
+}
+
+.project_img_container {
+  display: flex;
+  flex-wrap: wrap; /* Allow items to wrap to the next line if they overflow */
+  gap: 5px; /* Set a 5px gap between the images */
+}
+
+.project_img {
+  width: 400px; /* Set a fixed width for project img */
+  height: 250px; /* Set a fixed height for project img*/
+  display: flex;
+  flex-wrap: wrap; /* Allow image contents to wrap */
+  flex-shrink: 0; /* Prevent the image container from shrinking */
+}
+
+.project_img img {
+  width: 100%; /* Make the image fill the width of its container */
+  max-height: 100%; /* Limit the image height to the container's height */
+  object-fit: cover; /* Resize the image to cover the container without distorting*/
+}
+
+footer {
+  text-align: right;
+  font-style: italic;
+  font-size: 1em;
+}
+
+footer p {
+  padding: 10px 15px;
+}
