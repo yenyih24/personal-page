@@ -1,5 +1,5 @@
 <h1>Personal Portfolio Website</h1>
-visit the project: https://yenyih24.github.io/yenyih_24.github.io/
+visit the project: https://yenyih24.github.io/personal-page/
 
 ## Project Overview
 This project is a Personal Portfolio Website, created as a comprehensive showcase of my skills, academic background, and professional aspirations. It present a clean, professional, and interactive representation of who I am.
