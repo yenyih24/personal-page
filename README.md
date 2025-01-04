@@ -20,6 +20,6 @@ Highlights three key projects with titles, descriptions, and images.
 A contact form collecting name, email, subject, and message.
 
 ## Tools & Technology
-HTML for structure.
-CSS for styling, including advanced positioning techniques.
-GitHub Pages for deployment.
+- HTML for structure.
+- CSS for styling.
+- GitHub Pages for deployment.
